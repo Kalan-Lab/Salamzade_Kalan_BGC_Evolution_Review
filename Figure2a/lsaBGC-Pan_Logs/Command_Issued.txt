@@ -1,0 +1,4 @@
+/workspace/lab/kalanlab/salamzar/lsaBGC/minireview/Strep_albido/conda_env/bin/lsaBGC-Pan -a AntiSMASH_Results/ -o lsaBGC-Pan_Results_v1.0.9/ -up -c 30 -pic 99.0 -ci 5.0 -cj 30.0 -nb
+/workspace/lab/kalanlab/salamzar/lsaBGC/minireview/Strep_albido/conda_env/bin/lsaBGC-Pan -a AntiSMASH_Results/ -o lsaBGC-Pan_Results_v1.0.9/ -up -c 30 -pic 99.0 -ci 5.0 -cj 30.0 -nb
+/workspace/lab/kalanlab/salamzar/lsaBGC/tutorials/conda_env/bin/lsaBGC-Pan -a AntiSMASH_Results/ -o lsaBGC-Pan_Results_v1.0.9/ -c 40 -pic 99.0 -ci 5.0 -cj 30.0 -nb -up
+/workspace/lab/kalanlab/salamzar/lsaBGC/tutorials/conda_env/bin/lsaBGC-Pan -a AntiSMASH_Results/ -o lsaBGC-Pan_Results_v1.0.9/ -c 40 -pic 99.0 -ci 5.0 -cj 30.0 -nb -up

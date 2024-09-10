@@ -1,0 +1,5 @@
+Detailed BGC Information File: /workspace/lab/kalanlab/salamzar/lsaBGC/minireview/Strep_albido/lsaBGC-Pan_Results_v1.0.9/Detailed_BGC_Listing.with_Population_and_GCF_Labels.txt
+Ortholog by Sample Matrix File: /workspace/lab/kalanlab/salamzar/lsaBGC/minireview/Strep_albido/lsaBGC-Pan_Results_v1.0.9/Sample_by_Orthogroups_Matrix.tsv
+Output Directory: /workspace/lab/kalanlab/salamzar/lsaBGC/minireview/Strep_albido/lsaBGC-Pan_Results_v1.0.9/lsaBGC_Sociate_Results/
+Species Phylogeny: /workspace/lab/kalanlab/salamzar/lsaBGC/minireview/Strep_albido/lsaBGC-Pan_Results_v1.0.9/Create_Species_Phylogeny/Species_Phylogeny_FastTree2.treefile
+Threads: 40
