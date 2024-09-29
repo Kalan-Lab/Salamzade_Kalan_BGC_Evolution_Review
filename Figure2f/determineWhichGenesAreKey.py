@@ -212,7 +212,7 @@ def parseAntiSMASH(bgc_genbank, comprehensive_parsing=True, flank_size=2000):
 
 	return(genes)
 
-antismash_results = os.path.abspath('lsaBGC_Results/Recreated_GenBanks_with_LocusTags/') + '/'
+antismash_results = os.path.abspath('lsaBGC-Pan_Results_v1.0.9/Recreated_GenBanks_with_LocusTags/') + '/'
 
 gene_to_core_status = {}
 for g in os.listdir(antismash_results):
@@ -225,7 +225,7 @@ for g in os.listdir(antismash_results):
 				gene_to_core_status['.'.join(f.split('.')[:-1]) + '|' + gene] = genes[gene]['core_overlap']
 				#print(g + '\t' + '.'.join(f.split('.')[:-1]) + '\t' + f + '\t' + gene + '\t' + str(genes[gene]['core_overlap']))
 
-with open('lsaBGC_Results/Scratch_Workspace/zol_results.tsv') as ozo:
+with open('lsaBGC-Pan_Results_v1.0.9/Scratch_Workspace/zol_results.tsv') as ozo:
 	for i, line in enumerate(ozo):
 		if i == 0: continue
 		line = line.strip('\n')

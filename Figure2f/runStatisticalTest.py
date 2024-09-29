@@ -13,6 +13,6 @@ for i, line in enumerate(open('TajD_Stats.txt')):
     else:
         noncore.append(float(ls[3]))
 
-stat, pval = stats.mannwhitneyu(core, noncore, alternative='less')
+stat, pval = stats.mannwhitneyu(core, noncore, alternative='greater')
 print(pval)
 print(stat)
