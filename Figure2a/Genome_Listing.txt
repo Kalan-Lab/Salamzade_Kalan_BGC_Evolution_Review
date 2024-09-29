@@ -1,4 +1,3 @@
-
 Streptomyces_albidoflavus_GCA_023502165.1
 Streptomyces_albidoflavus_GCA_023168305.1
 Streptomyces_albidoflavus_GCA_000719435.1
