@@ -12,6 +12,7 @@ def determineBranchSumForGroup(species_tree_file, group_genomes):
         t.prune(group_genomes, preserve_branch_length=True)
         phylo_breadth = 0.0
         for n in t.traverse('postorder'):
+            if n.is_root(): continue
             phylo_breadth += n.dist
         return(phylo_breadth)
     except:
