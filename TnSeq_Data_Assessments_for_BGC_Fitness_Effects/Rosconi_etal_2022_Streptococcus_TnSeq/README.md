@@ -1,8 +1,8 @@
 ## Overview
 
 - Fitness calls for genes were gathered from the study "A bacterial pan-genome makes gene essentiality strain-dependent and evolvable" by Rosconi et al 2022: https://doi.org/10.1038/s41564-022-01208-7
-- 33 complete Streptococcus pneumoniae genomes were downloaded from NCBI's GenBank database on 12/22/2024 belonging to the BioProject PRJNA514780 referenced in the study.
-- AntiSMASH (v7.0.0) was used for BGC prediction with largely default parameters (see antismash.cmds).
+- 33 complete *Streptococcus pneumoniae* genomes were downloaded from NCBI's GenBank database on 12/22/2024 belonging to the BioProject PRJNA514780 referenced in the study.
+- AntiSMASH (v7.0.0) was used for BGC prediction with largely default parameters (see `antismash.cmds`).
 - Supplementary tables S5 and S7 was downloaded from the study by Rosconi et al. 2022 and stored as tab-separated text files. 
-- The custom script getEssentialomeClass.py was used to identify which of the "gene subcluster" (granular ortholog groups) in S5 featured gene members that overlapped with protocore coordinates for predicted BGC regions by antiSMASH for the 33 genomes from PRJNA514780. The fitness classifications for the "gene subcluster" was then extracted from S7.
+- The custom script `getEssentialomeClass.py` was used to identify which of the "gene subcluster" (granular ortholog groups) in table S5 featured gene members that overlapped with protocore coordinates for predicted BGC regions by antiSMASH for the 33 genomes from PRJNA514780. The fitness classifications for the "gene subcluster" was then extracted from data in table S7.
 - 65 "gene subclusters" were identified as overlapping with BGC protocore regions in at least one of the 33 genomes considered. 63 were classified as non-essential and 2 were classified as "Universal". Further examination revealed the two "gene subclusters" classified as "Universal" corresponded to mevalonate pathway enzymes that were false positives from BGC prediction, similar to what was recently noted to be the case in a study investigating BGCs from Staphylococcus: https://doi.org/10.1099/mgen.0.000988. The reason for the false positive detection is because one of the enzymes exhibits homology to polyketide synthases as described in this study: https://doi.org/10.1073/pnas.1607210113.
